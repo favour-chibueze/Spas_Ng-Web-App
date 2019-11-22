@@ -295,14 +295,15 @@ small {
 }
 
 .brand-logo img{
-  margin-top:  0.3em;
+  margin-top:  -0.7em;
   margin-left: -2em;
   width: 4em;
 }
 .brand-logo input[type=text] {
-  margin-top: -o.2em;
-    margin-right: -6em;
+  margin-top: -0.7em;
+    margin-right: -7.9em;
     width: 100%;
+    font-size: 14px;
 }
 
 .card {
@@ -326,7 +327,7 @@ input[type=submit] {
 
 input[type=email] {
  width: 50%;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .btn-secondary {
