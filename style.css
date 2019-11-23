@@ -239,7 +239,7 @@ element.style {
 
 .my-text3  h2, p {
   margin-top: 2em;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   color:  white;
 }
 .my-text3  h2{
@@ -330,6 +330,15 @@ input[type=email] {
   font-size: 16px;
 }
 
+  
+.my-text3  h2, p {
+  margin-bottom:  0.3em;
+}
+.my-text3 h2 {
+  padding-top: 2em;
+  font-size: 1.7em;
+}
+
 .btn-secondary {
   width: 50%;
 }
@@ -338,6 +347,9 @@ input[type=email] {
 }
 }
 
+.list-unlisted:hover {
+  text-decoration: none !important;
+}
 @media (min-width: 992px){
   .mt-lg-n10, .my-lg-n10 {
     margin-top: -5rem !important;
@@ -352,9 +364,7 @@ input[type=email] {
   .pt-3, .py-3 {
     padding-top: 1rem !important;
   }
-  .position-relative {
-    position: relative !important;
-  }
+  
   }
 
   @media (max-width: 767.98px) {
@@ -367,3 +377,5 @@ input[type=email] {
         .retro-layout-2 .img-1 {
           height: 200px; } }
       
+         
+       
